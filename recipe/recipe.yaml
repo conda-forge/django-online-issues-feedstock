@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-online-issues
-  version: "0.5"
+  version: "0.6"
 
 package:
   name: ${{ name|lower }}
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_online_issues-${{ version }}.tar.gz
-  sha256: 16c14fac23cd73323b540e55608586af9be282e631076ee65a6931ab98626aa3
+  sha256: 7fe5c184f1aeca97d37cd86aa0801d35abe46522db8c4ce20153fd2b1fd6421b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 

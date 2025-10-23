@@ -7,7 +7,7 @@
 
 [project]
 name = "django-online-issues-feedstock"
-version = "3.52.2"  # conda-smithy version used to generate this file
+version = "3.52.3"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/django-online-issues-feedstock"
 authors = ["@conda-forge/django-online-issues"]
 channels = ["conda-forge"]
